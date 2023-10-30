@@ -1,0 +1,11 @@
+{
+  "projects": {
+    "default": "cs-club-demo-91a21"
+  },
+  "hosting": {
+    "rewrites": [ {
+      "source": "/episode",
+      "function": "getEpisode"      
+    }]
+  }
+}
